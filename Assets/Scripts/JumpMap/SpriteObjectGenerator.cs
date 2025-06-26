@@ -81,6 +81,7 @@ public class SpriteObjectGenerator : MonoBehaviour
     isGenerating = true;
     promptInput.text = string.Empty;
     promptInput.DeactivateInputField();
+    WebGLInputHelper.DeactivateInputField(promptInput);
 
     UpdateStatus("이미지 생성 중...");
 
