@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ca53508aeb5074baa4447a64d38d6a, type: 3}
   m_Name: AIServerConfig
   m_EditorClassIdentifier: 
-  url: https://ai-demo-oneday-api-184076423897.asia-northeast3.run.app
+  url: http://localhost:8000
   apiKey: 2ys5lSJ40XKENU2IVcoXVLXJ6Yr_623pGGm4B5QG8fei4gdKv
   generateFishPath: /generate-fish
   generateHumanPath: /generate-human
